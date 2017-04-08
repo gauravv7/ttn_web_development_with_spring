@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <alias name="teaBean" alias="hotDrink"/>
+    <bean id="teaBean" class="com.spring.basics.Tea" scope="prototype"/>
+    <bean id="restaurant" class="com.spring.basics.Restaurant" autowire="byName"></bean>
+    <bean id="restaurant2" class="com.spring.basics.Restaurant" autowire="byType"></bean>
+
+</beans>
