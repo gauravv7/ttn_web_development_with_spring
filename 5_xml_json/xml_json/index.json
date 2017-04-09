@@ -1,0 +1,13 @@
+{
+      "topManagementId": "1",
+      "chairman": "c1",
+      "boardOfDirector": "bod1",
+
+      "middleManagementId": "2",
+      "generalManager": "gm2",
+      "regionalManager": "rm2",
+
+      "firstLevelManagementId": "3",
+      "officeManager": "ofm3",
+      "teamLeader": "tl3"
+}
