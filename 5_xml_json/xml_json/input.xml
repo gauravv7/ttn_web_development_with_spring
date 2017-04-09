@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<class>
+    <employee>
+        <topManagement id="1">
+            <chairman>c1</chairman>
+            <boardOfDirector>bod1</boardOfDirector>
+        </topManagement>
+
+        <middleManagement id="2">
+            <generalManager>gm2</generalManager>
+            <regionalManager>rm2</regionalManager>
+        </middleManagement>
+
+        <firstLineManagement id="3">
+            <officeManager>ofm3</officeManager>
+            <teamLeader>tl3</teamLeader>
+        </firstLineManagement>
+    </employee>
+</class>
