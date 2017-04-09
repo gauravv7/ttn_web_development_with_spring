@@ -1,0 +1,19 @@
+package com.spring.events;
+
+import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.context.ApplicationEventPublisherAware;
+
+public class SmsPublisher implements ApplicationEventPublisherAware {
+
+    private ApplicationEventPublisher publisher;
+    public void setApplicationEventPublisher(ApplicationEventPublisher applicationEventPublisher) {
+
+        publisher=applicationEventPublisher;
+
+    }
+
+    public void publish(SmsEvent event) {
+
+        publisher.publishEvent(event);
+    }
+}
